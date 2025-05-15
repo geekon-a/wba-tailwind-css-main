@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-primary">
+  <!-- Header Section -->
+  <header class="bg-green-400 text-white py-4 w-full">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+      <div class="flex items-center gap-2">
+        <img src="../logo.svg" alt="Logo" class="h-8 w-8" />
+        <span class="font-bold text-xl">Start</span>
+      </div>
+      <button aria-label="Menu">
+        <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="mt-10 px-4 flex flex-col-reverse md:flex-row md:justify-between gap-10 max-w-7xl mx-auto items-center">
+      <div class="space-y-4 md:w-1/3 text-center md:text-left">
+        <p class="uppercase tracking-widest font-semibold text-sm">Welcome</p>
+        <h1 class="font-bold text-3xl md:text-4xl">Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="text-sm text-white">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+        </p>
+        <div class="pt-2">
+          <button class="font-semibold bg-white text-green-500 rounded shadow-md hover:bg-gray-100 py-2 px-6">Explore</button>
+        </div>
+      </div>
+      <figure class="md:w-2/3 flex justify-center">
+        <img src="../Image1.svg" alt="Illustration" class="max-w-xl w-full rounded" />
+      </figure>
+    </div>
+  </header>
+
+  <!-- Partners Section -->
+  <section class="bg-white text-center py-10 px-6">
+    <div>
+      <p class="text-green-600 uppercase tracking-widest font-semibold mb-2">Partners</p>
+      <h2 class="font-bold text-xl md:text-2xl mb-2">Lorem Ipsum Dolor</h2>
+      <p class="text-sm text-gray-600 mb-6">Lorem ipsum, dolor sit amet consectetur<br />adipisicing elit.</p>
+    </div>
+    <div class="flex flex-wrap flex-col md:flex-row items-center justify-center gap-8">
+      <img src="../google.svg" alt="Google" class="h-14" />
+      <img src="../micosof.svg" alt="Microsoft" class="h-14" />
+      <img src="../airbnb.svg" alt="Airbnb" class="h-14" />
+      <img src="../facebook.svg" alt="Facebook" class="h-14" />
+      <img src="../spotify.svg" alt="Spotify" class="h-14" />
+    </div>
+    <div class="mt-8">
+      <button class="py-2 px-6 bg-black text-white font-semibold rounded hover:bg-gray-800">Learn More</button>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <main class="bg-white max-w-6xl mx-auto px-6 py-10 space-y-12">
+    <article class="flex flex-col md:flex-row items-center gap-6">
+      <img src="../ilu2.svg" alt="Illustration 1" class="object-contain" />
+      <div class="md:text-left text-center">
+        <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
+        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+        <button class="bg-black text-white rounded px-5 py-2 hover:bg-gray-800">Learn More</button>
+      </div>
+    </article>
+    <article class="flex flex-col md:flex-row-reverse items-center gap-6">
+      <img src="../ilu1.svg" alt="Illustration 2" class="object-contain" />
+      <div class="text-center md:text-left">
+        <h3 class="text-lg font-semibold mb-2">Lorem ipsum dolor sit amet consectetur</h3>
+        <p class="text-gray-600 text-sm mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
+        <button class="bg-black text-white px-5 py-2 rounded hover:bg-gray-800">Learn More</button>
+      </div>
+    </article>
+  </main>
+
+  <!-- Team Section -->
+  <section class="bg-gray-50 py-12">
+    <div class="max-w-7xl mx-auto text-center px-4">
+      <h2 class="uppercase tracking-wide text-green-600 font-semibold text-base">Team</h2>
+      <p class="mt-2 text-3xl font-extrabold text-gray-900">Our Talents</p>
+      <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10 max-w-6xl mx-auto px-4">
+      <div class="bg-white p-6 shadow rounded-2xl flex flex-col items-center">
+        <img src="../profile1.svg" alt="Peg Legge" class="w-28 h-28 rounded-full border-2 border-gray-200" />
+        <h3 class="mt-4 text-xl font-semibold text-gray-900">Peg Legge</h3>
+        <p class="text-sm text-gray-500 uppercase mt-1">CEO</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-2xl flex flex-col items-center">
+        <img src="../profile2.svg" alt="Richard Guerra" class="w-28 h-28 rounded-full border-2 border-gray-200" />
+        <h3 class="mt-4 text-xl font-semibold text-gray-900">Richard Guerra</h3>
+        <p class="text-sm text-gray-500 uppercase mt-1">CTO</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-2xl flex flex-col items-center">
+        <img src="../profile3.svg" alt="Alexandra Stolz" class="w-28 h-28 rounded-full border-2 border-gray-200" />
+        <h3 class="mt-4 text-xl font-semibold text-gray-900">Alexandra Stolz</h3>
+        <p class="text-sm text-gray-500 uppercase mt-1">Designer</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-2xl flex flex-col items-center">
+        <img src="../profile4.svg" alt="Janet Bray" class="w-28 h-28 rounded-full border-2 border-gray-200" />
+        <h3 class="mt-4 text-xl font-semibold text-gray-900">Janet Bray</h3>
+        <p class="text-sm text-gray-500 uppercase mt-1">Developer</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-10">
+      <a href="#learn-more" class="px-8 py-3 inline-block bg-green-600 text-white font-medium rounded-full hover:bg-green-700 transition">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="w-full">
+    <div class="bg-green-500 text-white py-8">
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="#" aria-label="Facebook" class="hover:opacity-75"><img src="../sm_facebook.svg" /></a>
+        <a href="#" aria-label="Instagram" class="hover:opacity-75"><img src="../sm_instagram.svg" /></a>
+        <a href="#" aria-label="Twitter" class="hover:opacity-75"><img src="../sm_twitter.svg" /></a>
+        <a href="#" aria-label="Pinterest" class="hover:opacity-75"><img src="../sm_pinterest.svg" /></a>
+        <a href="#" aria-label="TikTok" class="hover:opacity-75"><img src="../sm_tiktok.svg" /></a>
+        <a href="#" aria-label="WhatsApp" class="hover:opacity-75"><img src="../sm_whatsapp.svg" /></a>
+        <a href="#" aria-label="YouTube" class="hover:opacity-75"><img src="../sm_yt.svg" /></a>
+      </div>
+      <p class="text-sm text-center md:text-right">© Start, 2022. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
